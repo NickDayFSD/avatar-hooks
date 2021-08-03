@@ -12,7 +12,13 @@ const AvatarCharacters = () => {
     isLoading(false);
   });
 
-  if (loading) return <h1>Loading...</h1>;
+  if (loading)
+    return (
+      <img
+        src="https://media.giphy.com/media/jyanYxvGz3MOc/giphy.gif"
+        alt="Loading"
+      />
+    );
   return <CharacterList characters={characters} />;
 };
 

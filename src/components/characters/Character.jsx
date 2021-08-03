@@ -3,15 +3,15 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Character = ({ _id, name, photoUrl, affiliation }) => (
-  // <Link to={`/character/${_id}`}>
-  <figure>
-    <img src={photoUrl} alt={name} />
-    <figcaption>
-      <p>{name}</p>
-      <p>{affiliation}</p>
-    </figcaption>
-  </figure>
-  // </Link>
+  <Link to={`/${_id}`}>
+    <figure>
+      <img src={photoUrl} alt={name} />
+      <figcaption>
+        <p>{name}</p>
+        <p>{affiliation}</p>
+      </figcaption>
+    </figure>
+  </Link>
 );
 
 Character.propTypes = {
