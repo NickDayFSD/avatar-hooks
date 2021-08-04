@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders a Character 1`] = `
+<DocumentFragment>
+  <a
+    href="/undefined"
+  >
+    <figure>
+      <img
+        alt="Aang"
+        src="https://vignette.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest?cb=20130612174003"
+      />
+      <figcaption>
+        <p>
+          Aang
+        </p>
+        <p>
+          Air Acolytes Air Nomads Air Scouts (formerly) Team Avatar
+        </p>
+      </figcaption>
+    </figure>
+  </a>
+</DocumentFragment>
+`;
